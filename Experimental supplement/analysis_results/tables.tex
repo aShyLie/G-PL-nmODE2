@@ -1,0 +1,31 @@
+% ===== Table X: Convergence Residual =====
+\begin{table}[h]\centering
+\caption{Convergence residual $\|dp/dt\|$ on the test set.}
+\begin{tabular}{lc}\hline
+Metric & Value \\ \hline
+Mean $\pm$ std & $6.3370 \pm 0.2981$ \\
+95\% CI & $[6.2626,\ 6.4219]$ \\
+Median & $6.3297$ \\
+Max & $7.2058$ \\
+$N$ & 51 \\
+\hline\end{tabular}\end{table}
+
+% ===== Table Y: Modality Decoupling =====
+\begin{table}[h]\centering
+\caption{Modality decoupling metrics on the test set.}
+\begin{tabular}{lc}\hline
+Metric & Value \\ \hline
+MI_img_text & $3.7313$ \\
+MI_img_label & $0.5677$ \\
+MI_text_label & $0.5949$ \\
+NMI_img_text & $0.9928$ \\
+NMI_img_label & $0.9126$ \\
+NMI_text_label & $0.9563$ \\
+linear_probe_img_acc & $0.5877$ \\
+linear_probe_txt_acc & $0.5285$ \\
+cka_img_text & $0.9254$ \\
+recall@1_img2txt & $0.6863$ \\
+recall@5_img2txt & $1.0000$ \\
+recall@1_txt2img & $0.2941$ \\
+recall@5_txt2img & $0.9804$ \\
+\hline\end{tabular}\end{table}

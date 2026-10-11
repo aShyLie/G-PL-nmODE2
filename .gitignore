@@ -1,0 +1,14 @@
+﻿datasets/
+*.pt
+*.pth
+*.npy
+*.ckpt
+*.onnx
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+*.log

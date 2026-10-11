@@ -1,0 +1,38 @@
+{
+  "residual": {
+    "mean": 6.3370474086088295,
+    "std": 0.2981269587302274,
+    "ci_low": 6.262648386113784,
+    "ci_high": 6.4219113050722605,
+    "median": 6.3296685218811035,
+    "max": 7.205801010131836,
+    "min": 5.895317077636719,
+    "n": 51
+  },
+  "decoupling": {
+    "MI_img_text": 3.7312901685752315,
+    "MI_img_label": 0.5676846438967617,
+    "MI_text_label": 0.5948668862716614,
+    "NMI_img_text": 0.9927677419433211,
+    "NMI_img_label": 0.9126041943534513,
+    "NMI_text_label": 0.9563020971767254,
+    "linear_probe_img_acc": 0.5876923076923077,
+    "linear_probe_txt_acc": 0.5284615384615384,
+    "cka_img_text": 0.9254082622826061,
+    "recall@1_img2txt": 0.686274528503418,
+    "recall@5_img2txt": 1.0,
+    "recall@1_txt2img": 0.29411765933036804,
+    "recall@5_txt2img": 0.9803921580314636
+  },
+  "config": {
+    "xi1": 0.49,
+    "xi2": 0.49,
+    "xi1_plus_xi2": 0.98,
+    "tbar": 1.0,
+    "ysize": 1024,
+    "image_size": 128,
+    "n_test": 51,
+    "ckpt_path": "../models\\best_breast_cancer_model_seed42.pth",
+    "n_bins": 8
+  }
+}
